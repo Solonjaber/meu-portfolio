@@ -52,3 +52,8 @@ coverage
 # Deployment
 .vercel
 .netlify
+
+# Arquivos opcionais (não necessários para GitHub Pages)
+api-example-resend.js
+bun.lockb
+PROJETO-REVISAO.md
