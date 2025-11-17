@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cleverton Jaber - Desenvolvedor de Software & Líder de Projetos</title>
+    <meta name="description" content="Desenvolvedor de Software e Líder de Projetos especializado em criar soluções tecnológicas inovadoras e escaláveis. Portfólio e serviços de desenvolvimento web." />
+    <meta name="author" content="Cleverton Jaber" />
+    <meta name="keywords" content="desenvolvedor, software, full-stack, líder de projetos, React, TypeScript, Node.js" />
+
+    <meta property="og:title" content="Cleverton Jaber - Desenvolvedor de Software & Líder de Projetos" />
+    <meta property="og:description" content="Portfólio profissional de Cleverton Jaber - Desenvolvedor de Software e Líder de Projetos" />
+    <meta property="og:type" content="website" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+
+    <!-- Script para lidar com SPA routing no GitHub Pages -->
+    <script>
+      (function() {
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect != location.href) {
+          history.replaceState(null, null, redirect);
+        }
+      })();
+    </script>
+
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
